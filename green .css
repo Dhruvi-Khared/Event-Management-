@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /*background-image: linear-gradient(to right, #0B486B,#3B8686,#79BD9A,#A8DBA8);
+    background: linear-gradient(rgb(255, 255, 112),rgba(245, 96, 208, 0.72));*/
+    /*color: #E55451;*/
+    background:#151922;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    /*background: linear-gradient(to right,#A8DBA8,#79BD9A,#3B8686,#0B486B);*/
+    background:#253529;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px #5DBB63;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #5DBB63;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Services Section */
+.services {
+    background-color:#253529;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #5DBB63;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #5DBB63;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+.services ul li {
+    padding: 8px 0;
+    font-weight: bold;
+    color:#FFFDD0;
+}
+
+/* Recent Events Section */
+.recent-events {
+    background-color:#253529;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #5DBB63;
+    text-align: center;
+}
+
+.recent-events h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #5DBB63;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 48%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px #5DBB63;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px #FFFDD0;
+}

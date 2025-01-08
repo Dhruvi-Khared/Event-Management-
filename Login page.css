@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: linear-gradient(rgb(255, 255, 112),rgba(245, 96, 208, 0.72));*/
+    background: linear-gradient( #2a004e,  #5a009c,#8806ce,#c470eb,#8806ce, #5a009c, #2a004e );
+}
+
+.Login {
+    width: 200px;
+    padding: 100px;
+    /*background-color: white;*/
+    background-color:#120321;
+    box-shadow: 0 10px 20px #8806CE;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.Login h1{
+        /*color : black;*/
+        color :#8806CE;
+        margin-bottom: 10px;
+}
+    
+.Login p{
+        /*color : black;*/
+        color : #8806CE;
+        margin-bottom: 20px;
+}
+
+.inpute-field {
+        padding: 100px;
+        margin: auto;
+        width: 100%;
+        border-radius: 30px;
+}
+
+.btn-Login {
+        width : 100%;
+        padding : 10px;
+        /*background-color: blueviolet;
+        color :white;*/
+        background-color: #8806CE;
+        color :white;
+        border : none;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+.btn-Login:hover {
+        /*background-color: rgb(98, 20, 171);*/
+        background-color: #a600ff;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.forgot-password a {
+    color: #8806CE;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/*.Signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}*/
+
+.Signup-link a {
+    color: #8806CE;
+    text-decoration: none;
+}
+
+.Signup-link {
+    margin-top :10px;
+    color :#8806CE;
+    text-decoration:none;
+}
+
+.Signup-link a {
+    color: #8806CE;
+    text-decoration: none;
+}
+
+.Signup-link a:hover {
+    text-decoration: underline;
+}

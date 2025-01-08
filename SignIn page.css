@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: linear-gradient(rgb(255, 255, 112),rgba(245, 96, 208, 0.72));*/
+    /*background: linear-gradient(rgb(136, 6, 206), rgba(194, 112, 245, 0.72));*/
+    background: linear-gradient( #2a004e,#5a009c,#8806ce,#c470eb,#c29cd4,#c470eb,#8806ce,#5a009c,#2a004e );
+   /*background: #151922;*/
+}
+
+.signup {
+width: 200px;
+padding: 100px;
+background-color:#120321;
+box-shadow: 0 10px 20px #8806CE;
+border-radius: 30px;
+text-align: center;
+}
+
+.signup h1{
+    color :#8806CE;
+    margin-bottom: 10px;
+}
+
+.signup p{
+    color : #8806CE;
+    margin-bottom: 20px;
+}
+
+.inpute-field {
+    padding: 100px;
+    margin: auto;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.btn-signup {
+    width : 100%;
+    padding : 10px;
+    background-color: #8806CE;
+    color :white;
+    border : none;
+    border-radius: 10px;
+}
+
+.btn-signup:hover {
+    background-color: #a600ff;
+}
+
+.btn-google {
+    width : 100%;
+    padding : 10px;
+    background-color: white;
+    color :#8806CE;
+    border : none;
+    border-radius: 10px;
+}
+
+.btn-google:hover {
+    background-color: rgb(197, 157, 233);
+}
+
+.login-link {
+    margin-top :10px;
+    color :#8806CE;
+    text-decoration:none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+    color:#a600ff;
+}
